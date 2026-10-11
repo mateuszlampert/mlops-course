@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-from src.api.schemas.sentiment import SentimentPredictRequest
+from src.api.schemas.sentiment_predict import SentimentPredictRequest
 
 MODELS_DIR = Path("src") / "model"
 ENCODER_PATH = MODELS_DIR / "sentence_transformer.model"

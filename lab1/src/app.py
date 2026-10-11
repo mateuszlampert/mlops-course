@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 
-from src.api.schemas.sentiment import SentimentPredictRequest, SentimentPredictResponse
+from src.api.schemas.sentiment_predict import (
+    SentimentPredictRequest,
+    SentimentPredictResponse,
+)
 from src.inference import load_classifier, load_encoder
 from src.inference import predict as _predict
 
