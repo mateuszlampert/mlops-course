@@ -8,7 +8,7 @@ dependencies = [
     "clean-text>=0.7.1",
     "fastapi>=0.143.0",
     "joblib>=1.6.0",
-    "scikit-learn>=1.9.1",
+    "scikit-learn==1.7.2",
     "sentence-transformers>=6.1.0",
     "torch>=2.14.1",
     "uvicorn>=0.54.0",
@@ -26,5 +26,7 @@ explicit = true
 
 [dependency-groups]
 dev = [
+    "httpx2>=2.13.1",
     "pre-commit>=4.6.2",
+    "pytest>=9.1.1",
 ]
