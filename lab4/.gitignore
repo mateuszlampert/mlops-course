@@ -1,0 +1,5 @@
+.env
+data/
+milvus_db/volumes
+.venv
+__pycache__
